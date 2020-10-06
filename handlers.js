@@ -5,10 +5,10 @@
 // Define the handlers
 var handlers = {};
 
-// sample handler
-handlers.sample = function (data, callback) {
+// ping handler
+handlers.ping = function (data, callback) {
     // callback a http status code, and payload object
-    callback(406, { name: 'sample handler' });
+    callback(200);
 };
 
 // Not found handler
